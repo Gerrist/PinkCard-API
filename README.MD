@@ -1,6 +1,4 @@
-## Endpoints
-
-PinkCard API
+## PinkCard API
 
 Bereikbaar via `http://liveov.com:7001`
 
