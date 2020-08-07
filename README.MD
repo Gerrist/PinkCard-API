@@ -1,8 +1,9 @@
 ## PinkCard API
 
-Bereikbaar via `http://liveov.com:7001`
+Bereikbaar via URL `http://liveov.com:7001`
 
 #### Todo:
+&bull; Volledig opensource maken d.m.v. een standalone versie      
 &bull; SSL certificaat      
 &bull; Nieuwe endpoints, data en funcites. Kom maar door met die ideetjes!      
 
