@@ -2,6 +2,8 @@
 
 Bereikbaar via URL `http://liveov.com:7001`
 
+Authenticatietoken op aanvraag.
+
 #### Todo:
 &bull; Volledig opensource maken d.m.v. een standalone versie      
 &bull; SSL certificaat      
