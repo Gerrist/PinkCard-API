@@ -1,13 +1,18 @@
 ## PinkCard API
 
-Bereikbaar via URL `http://liveov.com:7001`
+Bereikbaar via URL `https://liveov.com`
 
 Authenticatietoken op aanvraag.
 
+Hoe gebruik je de API?
+1. Voeg een gebruiker toe via `/api/adduser`
+2. Bekijk alle gebruikers via `/api/users`
+2. Bekijk alle kaarten van een specefieke gebruiker via `/api/cards`
+3. Haal reishistorie op van een bepaalde kaart via `/api/transactions`
+
 #### Todo:
 &bull; Volledig opensource maken d.m.v. een standalone versie      
-&bull; SSL certificaat      
-&bull; Nieuwe endpoints, data en funcites. Kom maar door met die ideetjes!      
+&bull; Nieuwe endpoints, data en functies. Kom maar door met die ideetjes!      
 
 ## Endpoints
 
@@ -33,7 +38,7 @@ GET `/api/cards`
 
 
 #### Transacties van kaart bekijken
-GET `/api/transactiond`
+GET `/api/transactions`
 
 `token` Authenticatietoken      
 `user` UUID van OVCP gebruiker      
